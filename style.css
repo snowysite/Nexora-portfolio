@@ -270,3 +270,62 @@ body.loaded #loader {
 .about-img {
   border-radius: 20px;
 }
+
+
+/* sign-up */
+
+/* body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+} */
+
+/* .signup-container {
+  width: 100%;
+  max-width: 400px;
+  background: #111;
+  padding: 2rem;
+  margin: 5rem auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ff5500;
+}
+
+.signup-container h2 {
+  color: #ff5500;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #222;
+  color: white;
+}
+
+form button {
+  background-color: #ff5500;
+  color: white;
+  padding: 0.8rem;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #ff6f2c;
+}
+
+#message {
+  text-align: center;
+  margin-top: 1rem;
+} */
+
+   

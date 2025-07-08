@@ -1,0 +1,23 @@
+ body {
+      background-color: #0e0e0e;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .card {
+      background-color: #1a1a1a;
+      border: none;
+      box-shadow: 0 0 15px rgba(255, 102, 0, 0.4);
+    }
+    .btn-orange {
+      background-color: #ff6600;
+      color: white;
+    }
+    .btn-orange:hover {
+      background-color: #ff3300;
+    }
+    .form-label {
+      color: #ff6600;
+    }
