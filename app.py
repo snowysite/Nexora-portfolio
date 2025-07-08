@@ -10,9 +10,9 @@ users = {}
 
 @app.route('/')
 def home():
-    return redirect(url_for('signup'))
+    return redirect(url_for('main'))
 
-@app.route('/signup', methods=['GET', 'POST'])
+@app.route('/index', methods=['GET', 'POST'])
 def signup():
     if request.method == 'POST':
         name = request.form['name']
@@ -35,7 +35,7 @@ def signup():
             'password': generate_password_hash(password)
         }
         return redirect(url_for('login'))
-    return render_template('signup.html')
+    return render_template('index.html')
 
 
 app = Flask(__name__)
@@ -50,14 +50,14 @@ def login():
         # For demo, we're just checking fixed values
         if username == 'admin' and password == 'password':
             session['user'] = username
-            return redirect(url_for('index'))  # 👈 redirect to index.html
+            return redirect(url_for('main'))  # 👈 redirect to main.html
         else:
             return render_template('login.html', message="Invalid credentials")
     return render_template('login.html')
 
-@app.route('/index')
+@app.route('/main')
 def index():
     if 'user' in session:
-        return render_template('index.html', user=session['user'])
+        return render_template('main.html', user=session['user'])
     return redirect(url_for('login'))
 
