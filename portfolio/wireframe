@@ -1,0 +1,66 @@
+──────────────────────────────────────────────
+|                 NAVIGATION BAR             |
+| Logo (Nexora) | Home | About | Projects |  |
+| Skills | Contact [Dark BG, sticky]         |
+──────────────────────────────────────────────
+
+──────────────────────────────────────────────
+|                 HERO SECTION               |
+| [ Fullscreen black bg ]                    |
+|                                            |
+|   NEXORA                                   |
+|   "Crafting dynamic web experiences."      |
+|   [CTA Button: View Projects]              |
+|   [Subtle background animation/video]      |
+──────────────────────────────────────────────
+
+──────────────────────────────────────────────
+|                  ABOUT SECTION             |
+| [ Split layout: Left = Image, Right = Bio ]|
+|                                            |
+|   Headline: "Who is Nexora?"               |
+|   - Short bio paragraph                    |
+|   - List of core values / focus areas      |
+|   [Optional: animated skill tags]          |
+──────────────────────────────────────────────
+
+──────────────────────────────────────────────
+|                 PROJECTS SECTION           |
+| [ Grid Layout - 2 or 3 columns ]           |
+|                                            |
+|   Project Card                             |
+|   ┌──────────────────────────────┐         |
+|   | Thumbnail                    |         |
+|   | Title                        |         |
+|   | Short description            |         |
+|   └──────────────────────────────┘         |
+|   [On hover: orange glow + details]       |
+|   ... more project cards ...               |
+──────────────────────────────────────────────
+
+──────────────────────────────────────────────
+|                  SKILLS SECTION            |
+| [ Icons + Labels or Animated Bars ]        |
+|                                            |
+|   Frontend: HTML, CSS, JS, React           |
+|   Backend: Node.js, Flask, Python          |
+|   Tools: Git, Figma, Vercel                |
+|   [Orange progress bars or circle charts]  |
+──────────────────────────────────────────────
+
+──────────────────────────────────────────────
+|                 CONTACT SECTION            |
+|                                            |
+|   "Let's build something awesome."         |
+|   Name [_________]                         |
+|   Email [_________]                        |
+|   Message [___________]                    |
+|   [ Send Message Button - orange ]         |
+|   [Social links: GitHub, LinkedIn, Email]  |
+──────────────────────────────────────────────
+
+──────────────────────────────────────────────
+|                 FOOTER                     |
+|                                            |
+|   © 2025 Nexora | Built with ❤️ and Code   |
+──────────────────────────────────────────────
